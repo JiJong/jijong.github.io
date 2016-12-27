@@ -433,3 +433,11 @@ var jqxhr = $.ajax({
 jqxhr.done(successHandler);
 jqxhr.fail(failureHandler);
 ```
+
+### 출처
+
+***
+
+* [nhn 자바스크립트 개발가이드](https://github.com/nhnent/fe.javascript/wiki)
+* [자바스크립트 코드 규칙](http://0006.tistory.com/13)
+* [읽기 좋은 자바스크립트 코딩 기법](http://kimjinhee.me/book/2016/05/18/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%8A%A4%ED%83%80%EC%9D%BC.html)
