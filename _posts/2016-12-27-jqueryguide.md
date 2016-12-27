@@ -90,6 +90,7 @@ $("#myId");
 // Slow
 $('.myClass');
 ```
+
 #### class selector를 사용할 때에는 element type을 selector 앞에 사용하지 마라.
 
 ```javascript
