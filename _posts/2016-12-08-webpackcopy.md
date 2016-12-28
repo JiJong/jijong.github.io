@@ -26,7 +26,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   plugin: [
     new CopyWebpackPlugin([
-      { from: './src/img/**', to: './img/', flatten: true }
+        { from: './src/img/**', to: './img/', flatten: true }
     ])
   ]
 };
