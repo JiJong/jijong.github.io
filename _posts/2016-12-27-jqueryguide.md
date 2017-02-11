@@ -8,6 +8,8 @@ comments: true
 share: true
 ---
 
+![jQuery](http://jijong.github.io/images/img_jquery.png)
+
 ## jQuery 코딩 컨벤션 가이드
 
 ***
