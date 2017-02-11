@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-![Webpack](http://jijong.github.io/images/img_webpack.png)
+![Webpack](http://jijong.github.io/images/img_webpack.jpg)
 
 ## webpack 간단하고 빠르게 웹팩을 적용해보기
 
@@ -21,7 +21,6 @@ share: true
 ## webpack.config.js
 
 ```javascript
-
 var path = require('path'),
     webpack = require('webpack'),
     HtmlWebpackPlugin = require('html-webpack-plugin'),
@@ -78,12 +77,13 @@ module.exports = {
 
 ## Plugin
 
-* [html-webpack-plugin](#)
-* [extract-text-webpack-plugin](#)
-* [webpack.ProvidePlugin](#)
-* [copy-webpack-plugin](#)
+* [html-webpack-plugin](#html-webpack-plugin)
+* [extract-text-webpack-plugin](#extract-text-webpack-plugin)
+* [webpack.ProvidePlugin](#webpackprovideplugin)
+* [copy-webpack-plugin](#copy-webpack-plugin)
 
 > 웹팩 내장 플러그인을 제외한 플러그인은 npm install 을 통해 설치한다.
+
 
 ### html-webpack-plugin
 
@@ -98,7 +98,6 @@ module.exports = {
 모듈을 자동으로 로드한다. 모듈에서 임의의 변수로 식별될 때마다 모듈이 자동으로 로드되며, 이 모듈은 로드된 모듈의 내보내기 모듈로 채워진다.
 
 ```javascript
-
 new webpack.ProvidePlugin({
     $: 'jquery', // jquery 모듈을 불러온다.
     jQuery: 'jquery', // jquery 모듈을 불러온다.
