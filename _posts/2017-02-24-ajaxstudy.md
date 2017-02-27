@@ -24,28 +24,28 @@ jQuery api에서 제공하는 편리한 `$.ajax()` 메서드가 있지만 순수
     * [순서](#순서)
     * [장점](#장점)
     * [XMLHttpRequest 객체 생성하기](#xmlhttprequest-객체-생성하기)
-* [Ajax 서버 요청](#)
-    * [GET방식과 POST방식 차이](#)
-    * [GET Requests](#)
-    * [POST Requests](#)
-    * [서버 상의 파일 주소](#)
-    * [비동기식 - True or False](#)
-    * [Async = true](#)
-    * [Async = false](#)
-    * [XMLRequest readyState 값](#)
-    * [XMLRequest Status 값](#)
-* [Ajax 서버 응답](#)
-    * [reponseText 속성](#)
-    * [reponseXML 속성](#)
-* [Ajax 이벤트](#)
-    * [onreadystatechange 이벤트](#)
-    * [Callback 함수 사용하기](#)
-* [Ajax 데이터베이스](#)
-    * [showCustomer() 함수](#)
-    * [Ajax 서버 페이지](#)
-* [Ajax 예제](#)
-    * [XML의 응용 프로그램](*)
-* 참고 링크
+* [Ajax 서버 요청](#ajax-서버-요청)
+    * [GET방식과 POST방식 차이](#get방식과-post방식-차이)
+    * [GET Requests](#get-requests)
+    * [POST Requests](#post-requests)
+    * [서버 상의 파일 주소](#서버-상의-파일-주소)
+    * [비동기식 - True or False](#비동기식---true-or-false)
+    * [Async = true](#async--true)
+    * [Async = false](#async--false)
+    * [XMLRequest readyState 값](#xmlrequest-readystate-값)
+    * [XMLRequest Status 값](#xmlrequest-status-값)
+* [Ajax 서버 응답](#ajax-서버-응답)
+    * [reponseText 속성](#reponsetext-속성)
+    * [reponseXML 속성](#responsexml-속성)
+* [Ajax 이벤트](#ajax-이벤트)
+    * [onreadystatechange 이벤트](#onreadystatechange-이벤트)
+    * [Callback 함수 사용하기](#callback-함수-사용하기)
+* [Ajax 데이터베이스](#ajax-데이터베이스)
+    * [showCustomer() 함수](#showcustomer-함수)
+    * [Ajax 서버 페이지](#ajax-서버-페이지)
+* [Ajax 예제](#ajax-예제)
+    * [XML의 응용 프로그램](#xml의-응용-프로그램)
+* [참고 링크](#참고-링크)
     
 ## Ajax란?
 
@@ -64,7 +64,7 @@ Ajax를 이용함으로써, 데이터 이용량은 줄이고, 페이지를 새�
 
 Ajax를 사용함에 있어 가장 기본은 `XMLHttpRequest` 객체이다. 이 객체는 서버로부터 데이터를 전송받을 때 사용되는 객체이다.
 
-> XMLHttpRequest 란?<br /><br />
+> XMLHttpRequest 란?<br />
 XMLHttpRequest는 본래 ActiveX의 구성요소 중 하나로 IE5에서 처음 구현되었다. 최근에 Firefox, Safari, Opera등의 브라우저에서 XMLHttpRequest를 지원하면서 AJAX의 기반기술이 되었다. 하지만 여전히 XMLHttpRequest는 W3C 표준이 아님을 기억해야 한다. W3C의 표준안은 DOM Level3 Load and Save라는 이름의 스펙으로 존재한다. 하지만 DOM Level3는 현재 대부분의 브라우저에서 지원하지 않는다.
 
 ### 장점
@@ -500,7 +500,7 @@ if (i > 0) {
 </html>
 ```
 
-`<cd> 요소의 갯수를 반환하여 페이지화를 시킨 예제 이다.
+`<cd>` 요소의 갯수를 반환하여 페이지화를 시킨 예제 이다.
 
 ### 참고 링크
 
