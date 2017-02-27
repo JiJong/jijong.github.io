@@ -19,11 +19,11 @@ jQuery api에서 제공하는 편리한 `$.ajax()` 메서드가 있지만 순수
 
 ### 목차
 
-* [Ajax란?](#)
-* [Ajax의 원리](#)
-    * [순서](#)
-    * [장점](#)
-    * [XMLHttpRequest 객체 생성하기](#)
+* [Ajax란?](#ajax란)
+* [Ajax의 원리](#ajax의-원리)
+    * [순서](#순서)
+    * [장점](#장점)
+    * [XMLHttpRequest 객체 생성하기](#xmlhttprequest-객체-생성하기)
 * [Ajax 서버 요청](#)
     * [GET방식과 POST방식 차이](#)
     * [GET Requests](#)
