@@ -14,10 +14,10 @@ share: true
 
 ***
 
-jQuery api에서 제공하는 편리한 $.ajax() 메서드가 있지만 순수 자바스크립트 `XMLHttpRequest` 객체를 학습하기 위하여 포스트 하였다.
+jQuery api에서 제공하는 편리한 `$.ajax()` 메서드가 있지만 순수 자바스크립트 `XMLHttpRequest` 객체를 학습하기 위하여 포스트 하였다.
 근데 실무에서는 아무래도 $.ajax() 메서드를 쓸것 같긴 하다.
 
-## 목차
+### 목차
 
 * [Ajax란?](#)
 * [Ajax의 원리](#)
@@ -500,9 +500,9 @@ if (i > 0) {
 </html>
 ```
 
-<cd> 요소의 갯수를 반환하여 페이지화를 시킨 예제 이다.
+`<cd> 요소의 갯수를 반환하여 페이지화를 시킨 예제 이다.
 
-## 참고 링크
+### 참고 링크
 
 - [w3cschool](https://www.w3schools.com/js/js_ajax_intro.asp)
 - [Ajax 시작하기](http://blog.naver.com/stork838/220585220820)
