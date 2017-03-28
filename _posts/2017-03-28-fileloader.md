@@ -8,9 +8,9 @@ comments: true
 share: true
 ---
 
-<img src="http://jijong.github.io/images/img_fileloader.svg" width="250" height="250" />
+<img src="http://jijong.github.io/images/img_fileloader.svg" width="250" height="250" style="margin: 0 auto" />
 
-# Webpack에서 file-loader로 이미지 불러오기
+# 웹팩에서 file-loader로 이미지 불러오기
 
 ***
 
