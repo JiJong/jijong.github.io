@@ -23,7 +23,7 @@ ES6 학습하기전 웹팩을 학습하면서 `css-loader` 및 `ExtractTextPlugi
 
 * [설치](#설치)
 * [사용법](#사용법)
-* [webpack.config.js Examples](#webpack.config.js-Examples)
+* [webpack.config.js Examples](#webpackconfigjs-examples)
 * [예시](#예시)
 * [참고 링크](#참고-링크)
 
@@ -39,8 +39,9 @@ npm install -i -d file-loader
 ### 사용법
 
 ```javascript
-use: "file-loader?name=[name].[ext]&publicPath=assets/foo/&outputPath=app/images/"
+use : "file-loader?name=[name].[ext]&publicPath=assets/foo/&outputPath=app/images/"
 ```
+웹팩2를 기준으로 `use` 로 로드 하지만 웹팩1에서는 `loader` 로 로드 해주면 된다.
 
 - [ext] 파일의 확장자
 - [name] 파일의 이름
