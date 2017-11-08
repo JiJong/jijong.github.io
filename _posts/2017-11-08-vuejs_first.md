@@ -22,9 +22,9 @@ Vue.js는 최근 가장 빠르게 발전하고 확산되고 있는 프론트엔�
 
 ### 목차
 
-* [Vue.js 란?](#설치)
-* [개발 환경 설정](#사용법)
-* [Vue.js CLI](#webpackconfigjs-examples)
+* [Vue.js 란?](#vuejs-란)
+* [개발 환경 설정](#개발-환경-설정)
+* [Vue.js CLI](#vuejs-cli)
 * [참고 링크](#참고-링크)
 
 ### Vue.js 란?
@@ -98,20 +98,19 @@ vue init simple hellovue
 <title>02-01</title>
 </head>
 <body>
-  <div id="app">
-    <h2>{{message}}</h2>
-  </div>
-  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-  <script type="text/javascript">
-    var model = {
-      message : '안녕 Vue.js'
-    };
-
-    var app = new Vue({
-      el : '#app',
-      data : model
-    })
-  </script>
+    <div id="app">
+        <h2>{{message}}</h2>
+    </div>
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+    <script type="text/javascript">
+        var model = {
+          message : '안녕 Vue.js'
+        };
+        var app = new Vue({
+          el : '#app',
+          data : model
+        })
+    </script>
 </body>
 </html>
 ```
@@ -121,7 +120,7 @@ vue init simple hellovue
 
 ```javascript
 var model = {
-  message : '안녕 Vue.js'
+    message : '안녕 Vue.js'
 };
 ```
 
@@ -129,8 +128,8 @@ var model = {
 
 ```javascript
 var app = new Vue({
-  el : '#app',
-  data : model
+    el : '#app',
+    data : model
 })
 ```
 
@@ -148,4 +147,4 @@ var app = new Vue({
 
 - [Vue.js 공식 한국어 가이드](https://kr.vuejs.org/)
 - [Vue.js 한국 사용자 모임](https://vuejs-kr.github.io/)
-- [Vue.js 한국 페이스부 그룹](https://www.facebook.com/groups/1152461054807344/)
+- [Vue.js 한국 페이스북 그룹](https://www.facebook.com/groups/1152461054807344/)
