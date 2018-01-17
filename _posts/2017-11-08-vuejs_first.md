@@ -99,7 +99,7 @@ vue init simple hellovue
 </head>
 <body>
     <div id="app">
-        <h2>{{message}}</h2>
+        <h2>{{ message }}</h2>
     </div>
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
     <script type="text/javascript">
