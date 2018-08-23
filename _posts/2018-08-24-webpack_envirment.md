@@ -171,13 +171,13 @@ var clickEvent = function clickEvent() {
 
 ```javascript
 module: {
-	rules: [ 
-		{
-			test: /\.(scss|sass)$/, 
-			exclude: /node_modules/,
-			use: ['style-loader', 'css-loader', 'sass-loader']
-		},
-	]
+    rules: [ 
+        {
+            test: /\.(scss|sass)$/, 
+            exclude: /node_modules/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
+        },
+    ]
 }
 ```
 
