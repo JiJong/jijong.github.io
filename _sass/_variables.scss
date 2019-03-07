@@ -4,6 +4,8 @@
   Font
   -------------- */
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600';
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* {font-family: 'Noto Sans KR', sans-serif;}
 
 $base-font: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $code-font: Menlo, Monaco, monospace;
