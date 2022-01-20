@@ -15,9 +15,9 @@ share: true
 
 ### 목차
 
-- [JavaScript의 탄생](#JavaScript의-탄생)
-- [ECMAScript 설명](#ECMAScript-설명)
-- [ECMAScript 버전별 특징](#ECMAScript-버전별-특징)
+- [JavaScript의 탄생](#javascript의-탄생)
+- [ECMAScript 설명](#ecmascript-설명)
+- [ECMAScript 버전별 특징](#ecmascript-버전별-특징)
 - [참고 자료](#참고-자료)
 
 ### JavaScript의 탄생
