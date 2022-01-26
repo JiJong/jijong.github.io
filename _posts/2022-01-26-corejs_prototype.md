@@ -81,6 +81,7 @@ console.log(arr2)  // [3, 4]
 - 모든 데이터가 false를 반환하는데, constructor를 변경하더라도 참조하는 대상이 변경될 뿐 `이미 만들어진 인스턴스의
 원형이나 데이터타입이 변하진 않음`
 - 어떤 인스턴스의 생성자 정보를 알아내기 위해 constructor 프로퍼티에 의존하는 것이 항상 안전하지는 않다는 것을 알 수 있음
+
 ```js
 var newConstructor = function () {
   console.log('this is new constructor!');
