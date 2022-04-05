@@ -5,8 +5,6 @@
 # Basic
 name:               "FE Developer 이명종"
 
-
-
 author:
   name:             이명종
   facebook:         Lmyeongjong
@@ -55,8 +53,6 @@ nav:
   - name:           ""
     url:            "https://github.com/qnfzks55/qnfzks55.github.io"
 
-
-
 # Sass
 sass:
   sass_dir:         _sass
@@ -83,3 +79,6 @@ gems:
   - jekyll-paginate
 
 exclude:            [vendor]
+
+# Dark mode
+dark_theme_toggle        : true
