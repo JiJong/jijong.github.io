@@ -3,6 +3,14 @@
 {% include head.html %}
 <body>
   <div class="content-container">
+    <!-- Dark mode Buttom -->
+    {% if site.dark_theme_toggle == true %}
+    <div class="dark_mode_toggle">
+      <input class="tgl tgl-light" id="dark_mode" type="checkbox" />
+      <label class="tgl-btn" for="dark_mode"></label>
+    </div>
+    {% endif %}
+    
     {{ content }}
 
     {% include footer.html %}
