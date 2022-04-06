@@ -3,82 +3,82 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "FE Developer 이명종"
+name: "FE Developer 이명종"
 
 author:
-  name:             이명종
-  facebook:         Lmyeongjong
-  twitter:          your-id
-  github:           JiJong/jijong.github.io
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            lmj5@naver.com
+  name: 이명종
+  facebook: Lmyeongjong
+  twitter: your-id
+  github: JiJong/jijong.github.io
+  linkedin: your-id
+  medium: your-id
+  tumblr: your-id
+  email: lmj5@naver.com
 
 # Google-analytics
 google-analytics:
-  id:               "135463093"
+  id: "135463093"
 
 # Disqus
 disqus:
-  id:               "audwhd55"
+  id: "audwhd55"
 
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
-url:                "https://jijong.github.io" # use this url when develop
-baseurl:            "" # the subpath of your site, e.g. /blog
-
+url: "https://jijong.github.io" # use this url when develop
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+timezone: Asia/Seoul
+permalink: /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
-paginate_path:      /page:num/
+paginate: 5
+paginate_path: /page:num/
 
 # Markdown
-markdown:           kramdown
+markdown: kramdown
 kramdown:
-  imput:            GFM
+  imput: GFM
 
 # Navigation
 nav:
-  - name:           "home"
-    url:            "https://qnfzks55.github.io/"
-  - name:           ""
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           ""
-    url:            "https://github.com/qnfzks55/qnfzks55.github.io"
+  - name: "home"
+    url: "https://qnfzks55.github.io/"
+  - name: ""
+    url: "/archive"
+  - name: "Tags"
+    url: "/tags"
+  - name: ""
+    url: "https://github.com/qnfzks55/qnfzks55.github.io"
 
 # Sass
 sass:
-  sass_dir:         _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 # Scopes
 defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
+  - scope:
+      path: ""
+      type: "pages"
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
     values:
-      layout:       "post"
+      layout: "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-exclude:            [vendor]
+exclude: [vendor]
 
 # Dark mode
-dark_theme_toggle        : true
+dark_theme_toggle: true
+
+after_footer_scripts:
+  - /assets/js/custom/dark-mode.js

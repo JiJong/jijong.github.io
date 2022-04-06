@@ -1,0 +1,26 @@
+---
+sitemap: false
+---
+
+@import "variables";
+@import "typography";
+@import "highlighter";
+@import "site";
+@import "custom/customMain";
+
+/*--------------
+  Dark Mode Color
+  -------------- */
+  $base-color: #c9d1d9;
+  $base-lighten-color: #21262d;
+  
+  $background-color: #0d1117;
+  $background-over-color: #21262d;
+  
+  $text-color: #c9d1d9;
+  $link-color: #268bd2;
+  $code-color: #bf616a;
+  $code-background-color: #f9f9f9;
+  $table-border-color: #e5e5e5;
+  $table-background-color: #f9f9f9;
+  

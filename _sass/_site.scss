@@ -19,6 +19,16 @@ html,
 body {
   margin: 0;
   padding: 0;
+  &::-webkit-scrollbar {
+		width: 5px;
+	}
+	&::-webkit-scrollbar-track {
+		background: #fff;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: #b2b2b2;
+		border-radius: 3px;
+	}
 }
 
 .content-container {
@@ -118,7 +128,6 @@ body {
 
   &-date {
     margin-bottom: .5rem;
-    color: $base-lighten-color;
     font-size: .75rem;
     text-transform: uppercase;
   }
@@ -179,7 +188,7 @@ body {
     }
 
     &-date {
-      color: $base-lighten-color;
+      color: $base-color;
       font-size: .75rem;
       text-transform: uppercase;
     }
@@ -241,18 +250,18 @@ body {
       display: inline-block;
       margin: 1px 4px;
       color: #fff;
-      background-color: lighten($base-color,50);
+      background-color: $base-lighten-color;
 			border-radius: 3px;
       span {
         float: left;
         padding: .5px 5px;
       }
       .count {
-        background-color: lighten($base-color,40);
+        background-color: $base-lighten-color;
 				border-radius: 0 3px 3px 0;
       }
       &:hover {
-        background-color: lighten($base-color,40);
+        background-color: $link-color;
       }
     }
   }

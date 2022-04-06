@@ -17,8 +17,8 @@
 	+ .tgl-btn {
 		outline: 0;
 		display: block;
-		width: 4em;
-		height: 2em;
+		width: 4rem;
+		height: 2rem;
 		position: relative;
 		cursor: pointer;
     user-select: none;
@@ -33,11 +33,22 @@
     
 		&:after {
 			left: 0;
+			content: "light_mode";
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #ff7f00;
 		}
     
 		&:before {
 			display: none;
 		}
+		
+		@media (min-width: 38rem){
+			width: 4em;
+			height: 2em;
+		}
+		
 	}
   
 	&:checked + .tgl-btn:after {
@@ -47,18 +58,22 @@
 
 .tgl-light {
 	+ .tgl-btn {
-		background: #f0f0f0;
+		background: #999;
 		border-radius: 2em;
 		padding: 2px;
-		transition: all .4s ease;
+		transition: all .4s ease-In;
 		&:after {
 			border-radius: 50%;
 			background: #fff;
-			transition: all .2s ease;
+			transition: all .2s ease-In;
 		}
 	}
   
 	&:checked + .tgl-btn {
-		background: #9FD6AE;
+		background: rgb(36, 41, 46);
+		&::after {
+			content: "dark_mode";
+			color: #ffd400;
+		}
 	}
 }
