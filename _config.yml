@@ -79,6 +79,3 @@ exclude: [vendor]
 
 # Dark mode
 dark_theme_toggle: true
-
-after_footer_scripts:
-  - /assets/js/custom/dark-mode.js

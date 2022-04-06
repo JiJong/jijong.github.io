@@ -24,3 +24,117 @@ sitemap: false
   $table-border-color: #e5e5e5;
   $table-background-color: #f9f9f9;
   
+  body { 
+    background: $background-color; 
+    color: $base-color;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $base-color;
+  }
+  a {
+    color: $link-color;
+  }
+
+  code {
+    color: $code-color;
+    background-color: $background-over-color;
+  }
+  
+  pre {
+    background-color: $background-over-color;
+  }
+
+  .header {
+    &-title {
+      a {
+        color: $base-color;
+      }
+    }
+    &-nav {
+      a {
+        color: $link-color;
+        &:hover {
+          color: $link-color;
+        }
+      }
+    }
+    &-small {
+      a {
+        color: $base-color;
+      }
+    }
+  }
+  
+  .list {
+    &-post {
+      &:hover {
+        background-color: $background-over-color;
+      }
+      a {
+        color: $base-color;
+      }
+      &-date {
+        color: $base-color;
+      }
+      &-desc {
+        color: lighten($base-color, 20);
+      }
+    }
+    &-pagination {
+  
+      &-previous {
+
+        a {
+          color: $base-lighten-color;
+  
+          &:hover,
+          &:focus {
+            color: $base-color;
+          }
+        }
+      }
+  
+      &-next {
+        a {
+          color: $base-color;
+  
+          &:hover {
+            color: $base-color;
+          }
+        }
+      }
+    }
+  }
+
+  .tag {
+    &-index {
+      a {
+        background-color: $base-lighten-color;
+        .count {
+          background-color: $base-lighten-color;
+        }
+        &:hover {
+          background-color: $link-color;
+        }
+      }
+    }
+    &-post {
+      a {
+        color: $link-color;  
+        &:hover {
+          color: $link-color;
+          background-color: $background-over-color;
+        }
+      }
+    }
+  }
+
+  .footer {
+    color: $base-color;
+    &-link {
+      a {
+        color: $base-color;
+      }
+    }
+  }
