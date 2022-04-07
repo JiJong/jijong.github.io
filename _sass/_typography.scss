@@ -249,6 +249,7 @@ table {
   width: 100%;
   border: 1px solid $table-border-color;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 td,

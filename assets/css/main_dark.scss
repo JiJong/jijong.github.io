@@ -21,8 +21,8 @@ sitemap: false
   $link-color: #268bd2;
   $code-color: #bf616a;
   $code-background-color: #f9f9f9;
-  $table-border-color: #e5e5e5;
-  $table-background-color: #f9f9f9;
+  $table-border-color: #21262d;
+  $table-background-color: #21262d;
   
   body { 
     background: $background-color; 
@@ -45,6 +45,18 @@ sitemap: false
     background-color: $background-over-color;
   }
 
+  table {
+    border: 1px solid $table-border-color;
+  }
+  
+  td, th {
+    border: 1px solid $table-border-color;
+  }
+
+  tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+    background-color: $table-background-color;
+  }
+  
   .header {
     &-title {
       a {
