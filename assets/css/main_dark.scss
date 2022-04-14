@@ -32,8 +32,13 @@ sitemap: false
   h1, h2, h3, h4, h5, h6 {
     color: $base-color;
   }
+
   a {
     color: $link-color;
+  }
+
+  strong {
+    color: #ff7f00;
   }
 
   code {
@@ -98,9 +103,9 @@ sitemap: false
       &-previous {
 
         a {
-          color: $base-lighten-color;
+          color: $base-color;
   
-          &:hover,
+          &:hover,s
           &:focus {
             color: $base-color;
           }
