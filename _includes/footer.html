@@ -31,5 +31,10 @@
 		{% endif %}
 
 	</div>
-	© 2022 {{ site.author.name }}. All rights reserved.
+	© <datetime class="footer-date">2023</datetime> {{ site.author.name }}. All rights reserved.
 </div>
+
+<script>
+	let date = new Date();
+	document.querySelector('.footer-date').innerHTML = `${date.getFullYear()}`;
+</script>
